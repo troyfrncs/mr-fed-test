@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MR Frontend Developer Technical Test</title>
+
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+  <header class="header container">
+    <div class="header__inner">
+      <a id="my-cart-btn" href="#" class="header__link">My Cart (<span id="product-count">0</span>)</a>
+
+      <div id="mini-cart-modal" class="header__cart">
+      
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="product container">
+      <div class="product__inner">
+        <div id="product-img" class="product__image">
+        </div>
+        <div class="product__detail">
+          <h1 id="product-name" class="product__detail-title"></h1>
+          <div class="product__detail-price-wrapper">
+            <div id="product-price" class="product__detail-price">$ <span id="product-price"></span></div>
+          </div>
+          <div id="product-description" class="product__detail-text">
+            <p></p>
+          </div>
+          <div class="product__variant">
+            <span class="product__variant-title">size<em>*</em></span>
+            <ul id="size-list" class="product__variant-list">
+              <li class="product__variant-item">
+                <a href="#" class="product__variant-item-link">S</a>
+              </li>
+              <li class="product__variant-item">
+                <a href="#" class="product__variant-item-link">M</a>
+              </li>
+              <li class="product__variant-item">
+                <a href="#" class="product__variant-item-link">L</a>
+              </li>
+            </ul>
+          </div>
+          <div class="product__button">
+            <button id="add-to-cart-btn" class="product__button-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
